@@ -16,7 +16,7 @@
 ///   void _onChanged(String v) => debounce(() => search(v));
 /// }
 /// ```
-library ;
+library;
 
 export 'src/debouncer.dart';
 export 'src/debouncer_config.dart';
