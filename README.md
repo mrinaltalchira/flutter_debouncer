@@ -1,10 +1,10 @@
-# flutter_debouncer
+# flutter_debouncer_kit
 
 A flexible, strategy-based debouncer for Flutter and Dart.
 
-[![pub version](https://img.shields.io/pub/v/flutter_debouncer.svg)](https://pub.dev/packages/flutter_debouncer)
-[![likes](https://img.shields.io/pub/likes/flutter_debouncer)](https://pub.dev/packages/flutter_debouncer)
-[![pub points](https://img.shields.io/pub/points/flutter_debouncer)](https://pub.dev/packages/flutter_debouncer)
+[![pub version](https://img.shields.io/pub/v/flutter_debouncer_kit.svg)](https://pub.dev/packages/flutter_debouncer_kit)
+[![likes](https://img.shields.io/pub/likes/flutter_debouncer_kit)](https://pub.dev/packages/flutter_debouncer_kit)
+[![pub points](https://img.shields.io/pub/points/flutter_debouncer_kit)](https://pub.dev/packages/flutter_debouncer_kit)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
@@ -26,7 +26,7 @@ A flexible, strategy-based debouncer for Flutter and Dart.
 
 ```yaml
 dependencies:
-  flutter_debouncer: ^0.1.0
+  flutter_debouncer_kit: ^0.1.0
 ```
 
 Then run:
@@ -42,7 +42,7 @@ flutter pub get
 ### 1. Basic — `Debouncer` class
 
 ```dart
-import 'package:flutter_debouncer/flutter_debouncer.dart';
+import 'package:flutter_debouncer_kit/flutter_debouncer_kit_kit.dart';
 
 class _MyState extends State<MyWidget> {
   final _debouncer = Debouncer(delay: Duration(milliseconds: 300));

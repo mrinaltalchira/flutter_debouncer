@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `flutter_debouncer` will be documented here.
+All notable changes to `flutter_debouncer_kit` will be documented here.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---

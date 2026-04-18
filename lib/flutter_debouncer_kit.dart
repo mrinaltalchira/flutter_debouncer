@@ -3,7 +3,7 @@
 /// ## Quick start
 ///
 /// ```dart
-/// import 'package:flutter_debouncer/flutter_debouncer.dart';
+/// import 'package:flutter_debouncer_kit/flutter_debouncer_kit_kit.dart';
 ///
 /// final debouncer = Debouncer(delay: Duration(milliseconds: 300));
 /// debouncer.run(() => print('fired!'));
@@ -16,12 +16,12 @@
 ///   void _onChanged(String v) => debounce(() => search(v));
 /// }
 /// ```
-library flutter_debouncer;
+library ;
 
 export 'src/debouncer.dart';
 export 'src/debouncer_config.dart';
-export 'src/debouncer_mixin.dart';
 export 'src/extensions.dart';
+export 'src/debouncer_mixin.dart';
 export 'src/strategy/both_edge_strategy.dart';
 export 'src/strategy/debounce_strategy.dart';
 export 'src/strategy/leading_edge_strategy.dart';

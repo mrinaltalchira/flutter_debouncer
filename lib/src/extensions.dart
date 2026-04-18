@@ -1,5 +1,4 @@
 import 'debouncer.dart';
-import 'debouncer_logger.dart';
 import 'strategy/debounce_strategy.dart';
 import 'strategy/trailing_edge_strategy.dart';
 import 'utils/debouncer_logger.dart';

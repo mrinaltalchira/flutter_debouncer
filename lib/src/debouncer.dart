@@ -1,9 +1,6 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'debouncer_config.dart';
-import 'debouncer_logger.dart';
-import 'disposable.dart';
-import 'lifecycle_hooks.dart';
 import 'strategy/debounce_strategy.dart';
 import 'strategy/trailing_edge_strategy.dart';
 import 'utils/debouncer_logger.dart';
